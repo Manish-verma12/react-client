@@ -1,15 +1,18 @@
 //import logo from './logo.svg';
 //import './App.css';
-
-import CustomForm from "./CustomForm";
+import React from 'react';
+import CustomForm from "./components";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-       <customForm name="Manish" lastname="verma" location="App.js"/>
+        <customForm name="Manish" lastname="verma" location="App.js" />
+        <customForm name="raj" lastname="verma" location="App.js" />
+        <customForm name="jack" lastname="rose" location="App.js" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit
+          <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
